@@ -1,0 +1,31 @@
+8
+
+dir
+4246
+https://svn.twilio.com/apps/OpenVBX-plugins/trunk/wikipedia/applets
+https://svn.twilio.com/apps
+
+
+
+2010-06-12T22:23:50.842890Z
+4246
+wtran
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+173e988a-c215-446b-9fd9-bce266d0efbe
+
+lookup_wikipedia
+dir
+

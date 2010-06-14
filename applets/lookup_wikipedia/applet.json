@@ -1,0 +1,6 @@
+{
+    "name" : "Lookup Wikipedia",
+    "author": "Will Tran <wtran@twilio.com>",
+    "description" : "Adds wikipedia capabilities to your sms flows.",
+    "type" : "sms"
+}
