@@ -1,5 +1,5 @@
 <?php
-require_once('plugins/thevinci/simple_html_dom.php');
+require_once('plugins/Wikipedia-VBX/simple_html_dom.php');
 
 $next = AppletInstance::getDropZoneUrl('next');
 
