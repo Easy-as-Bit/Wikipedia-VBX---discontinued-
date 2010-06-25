@@ -1,7 +1,11 @@
 <?php
-require_once('plugins/Wikipedia-VBX/simple_html_dom.php');
-
+$CI =& get_instance();
+$plugin = OpenVBX::$currentPlugin;
+$plugin = $plugin->getInfo();
+$plugin_url = base_url().'plugins/'.$plugin['dir_name'];
 $next = AppletInstance::getDropZoneUrl('next');
+
+require_once($plugin['plugin_path'].'/simple_html_dom.php');
 
 function get_output($url) {
     $ch = curl_init();
